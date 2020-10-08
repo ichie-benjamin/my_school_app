@@ -2,6 +2,11 @@ import Auth from '../pages/auth/Index';
 import Register from '../pages/auth/Register';
 import StudentIndex from '../pages/students/Index';
 import StudentProfile from '../pages/students/Profile';
+import Timetable from "pages/students/Timetable";
+import Subjects from "pages/students/Subjects";
+import Attendance from "pages/students/Attendance";
+import Exam from "pages/students/Exam";
+import Teachers from "pages/students/Teachers";
 
 
 const routes = [
@@ -30,6 +35,11 @@ const routes = [
     children: [
       { path: 'home', component: StudentIndex, meta:{name:'Dashboard'} },
       { path: 'profile', component: StudentProfile, meta:{name:'Profile'} },
+      { path: 'timetable', component: Timetable, meta:{name:'Timetable'} },
+      { path: 'subjects', component: Subjects, meta:{name:'Subjects'} },
+      { path: 'attendance', component: Attendance, meta:{name:'Attendance'} },
+      { path: 'exam', component: Exam, meta:{name:'Exam Result'} },
+      { path: 'teachers', component: Teachers, meta:{name:'Teachers'} },
     ]
   },
 

@@ -43,9 +43,9 @@
 
     <q-page-container class="bg-teal-1">
       <transition :name="transitionName">
-<!--        <keep-alive>-->
+        <keep-alive>
           <router-view class="child-slide"></router-view>
-<!--        </keep-alive>-->
+        </keep-alive>
       </transition>
     </q-page-container>
   </q-layout>
