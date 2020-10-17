@@ -34,7 +34,7 @@
             <q-item-label class="q-mt-sm text-bold icon-text">Exam</q-item-label>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-xs-6" @click="goto('/admin/check/stores')">
+        <div class="col-sm-6 col-md-4 col-xs-6">
           <div class="box">
             <q-icon name="library_books" color="primary" size="64px" />
             <q-item-label class="q-mt-sm text-bold icon-text">Result</q-item-label>
@@ -44,10 +44,10 @@
         <div class="col-sm-6 col-md-4 col-xs-6" @click="goto('/student/teachers')">
           <div class="box">
             <q-icon name="assignment_ind" color="primary" size="64px" />
-            <q-item-label class="q-mt-sm text-bold icon-text">Teacher</q-item-label>
+            <q-item-label class="q-mt-sm text-bold icon-text">Teachers</q-item-label>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-xs-6" @click="goto('/admin/check/stores')">
+        <div class="col-sm-6 col-md-4 col-xs-6">
           <div class="box">
             <q-icon name="score" color="primary" size="64px" />
             <q-item-label class="q-mt-sm text-bold icon-text">Growth</q-item-label>

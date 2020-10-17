@@ -2,12 +2,12 @@
   <q-page class="bg-white" style="margin-bottom: 100px">
     <div class="">
 
-      <div class="text-center q-ma-lg">
-        <q-item-label class="text-h6">2020/2021 (1st Term) Result</q-item-label>
-      </div>
+<!--      <div class="text-center q-ma-lg">-->
+<!--&lt;!&ndash;        <q-item-label class="text-h6">2020/2021 (1st Term) Result</q-item-label>&ndash;&gt;-->
+<!--      </div>-->
       <div class="q-pa-md" style="">
         <q-toolbar class="bg-primary text-white shadow-2">
-          <q-toolbar-title>Contacts</q-toolbar-title>
+          <q-toolbar-title>Your Teachers</q-toolbar-title>
         </q-toolbar>
 
         <q-list bordered>

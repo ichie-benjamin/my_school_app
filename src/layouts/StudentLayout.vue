@@ -64,24 +64,24 @@ export default {
 
       navs: [
         {
-          label: "Product",
-          icon: "add",
+          label: "Profile",
+          icon: "person_outline",
           is_center:0,
           // to: "/home"
-          to:'/product/add'
+          to:'/student/profile'
         },
         {
           label: "Categories",
           icon: "view_module",
           is_center:1,
           is_:false,
-          to: "/"
+          to: "/student/home"
         },
         {
-          label: "Orders",
-          icon: "contact_support",
+          label: "Notice",
+          icon: "notification_important",
           is_center:0,
-          to: "/admin/orders"
+          to: "/student/notice"
         }
       ],
 
@@ -91,6 +91,7 @@ export default {
 
   methods:{
     logout(){
+      this.$router.push('/auth/login');
       // firebaseAuth.signOut().then(()=>{
       //   this.$store.commit("store/logout");
       //   this.$router.push('/login');
@@ -122,7 +123,7 @@ export default {
   .q-tab__icon{
     margin-bottom: -20px;
   }
-  color: red;
+  color: #26A69A;
   .q-tab__icon{
     font-size: 45px!important;
     background: black;

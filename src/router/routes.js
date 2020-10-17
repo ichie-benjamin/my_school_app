@@ -7,14 +7,16 @@ import Subjects from "pages/students/Subjects";
 import Attendance from "pages/students/Attendance";
 import Exam from "pages/students/Exam";
 import Teachers from "pages/students/Teachers";
+import Notice from "pages/students/Notice";
 
 
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('../layouts/StudentLayout'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', component: StudentIndex, meta:{name:'Dashboard'} },
+
     ]
   },
 
@@ -40,6 +42,7 @@ const routes = [
       { path: 'attendance', component: Attendance, meta:{name:'Attendance'} },
       { path: 'exam', component: Exam, meta:{name:'Exam Result'} },
       { path: 'teachers', component: Teachers, meta:{name:'Teachers'} },
+      { path: 'notice', component: Notice, meta:{name:'Notice'} },
     ]
   },
 

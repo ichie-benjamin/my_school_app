@@ -73,7 +73,7 @@
         </div>
 
         <template >
-          <div v-if="tab === 'profile'">
+          <div v-if="tab === 'profile'" class="bg-white">
             <q-list bordered>
               <q-item  class="q-my-sm" v-ripple>
                 <q-item-section>
